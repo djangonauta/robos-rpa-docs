@@ -1,6 +1,6 @@
 [project]
 name = "robos-rpa-docs"
-version = "0.1.0"
+version = "0.2.0"
 description = "Documentação referente ao robôs de automação RPA do TJPA."
 authors = [
     {name = "Igor Carvalho", email = "igbrch@gmail.com"}

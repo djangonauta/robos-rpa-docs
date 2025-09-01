@@ -1,0 +1,9 @@
+.data-fb {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    border: thin solid silver;
+}
+
+.data-fb:hover {
+    opacity: 0.95;
+}

@@ -1,3 +1,9 @@
+## 0.4.0 (2025-09-05)
+
+### Feat
+
+- Adicionada documentação para Ciência ao MP e Advogado
+
 ## 0.3.0 (2025-09-03)
 
 ### Feat

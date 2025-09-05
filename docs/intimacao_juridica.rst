@@ -81,24 +81,24 @@ movimentados e os advogados, intimados.
   Salvar e movimentar processos
 
 
-Intimar Defensoria Pública
---------------------------
+Ciência à Defensoria Pública
+----------------------------
 
-É necessário ter sido cadastrado previamente um agrupador **INTIMAR DEFENSORIA PÚBLICA**.
+É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA À DEFENSORIA PÚBLICA**.
 
 O procedimento é idêntico ao de Intimar Advogado, porém o agrupador é diferente.
 
-.. figure:: _static/intimacao_juridica/intimar_defensoria_agrupador.png
+.. figure:: _static/intimacao_juridica/ciencia_defensoria_agrupador.png
   :class: data-fb
 
-  Agrupador Intimar Defensoria
+  Agrupador Ciência à Defensoria Pública
 
 E a ação de movimentação é **Realizar Remessa**.
 
-.. figure:: _static/intimacao_juridica/intimar_defensoria_realizar_remessa.png
+.. figure:: _static/intimacao_juridica/ciencia_defensoria_remessa.png
   :class: data-fb
 
-  Realizar Remessa Defensoria Pública
+  Realizar Remessa à Defensoria Pública
 
 
 Ciência ao Ministério Público e ao Advogado
@@ -106,7 +106,7 @@ Ciência ao Ministério Público e ao Advogado
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E AO ADVOGADO**.
 
-O procedimento é idêntico ao de Intimar Defensoria Pública, porém o agrupador é diferente.
+O procedimento é idêntico ao de Ciência à Defensoria Pública, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_mp_advogado_agrupador.png
   :class: data-fb
@@ -115,7 +115,7 @@ O procedimento é idêntico ao de Intimar Defensoria Pública, porém o agrupado
 
 A realização de remessa é diferente.
 
-.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_realizar_remessa.png
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_remessa.png
   :class: data-fb
 
   Realizar Remessa Ciência ao Ministério Público e ao Advogado
@@ -147,14 +147,41 @@ O procedimento de movimentação múltipla termina clicando no botão **Salvar**
   Salvar e concluir movimentação múltipla
 
 
-Ciência ao Ministério Público e a Defensoria Pública
+Ciência ao Ministério Público e à Defensoria Pública
 ----------------------------------------------------
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E DEFENSORIA PÚBLICA**.
 
-O procedimento é Ciência ao Ministério Público e ao Advogado, porém o agrupador é diferente.
+O procedimento é idêntico a **Ciência ao Ministério Público e ao Advogado**, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_mp_dpe_agrupador.png
   :class: data-fb
 
-  Agrupador Ciência ao Ministério Público e Defensoria Pública
+  Agrupador Ciência ao Ministério Público e à Defensoria Pública
+
+O procedimento é a combinação de **Ciência ao Ministério Público** e à **Ciência à Defensoria Pública**, porém ao final
+da **Ciência ao Ministério Público** deve-se continuar a movimentação de forma idêntica ao procedimento
+**Ciência ao Ministério Público e ao Advogado**, porém efetuar a **Ciência à Defensoria Pública**
+ao invés de **Intimar Advogado**.
+
+
+Ciência ao Ministério Público, Defensoria Pública e ao Presídio
+---------------------------------------------------------------
+
+É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO, DEFENSORIA PÚBLICA E AO PRESÍDIO**.
+
+O procedimento é idêntico a **Ciência ao Ministério Público e à Defensoria Pública**, porém o agrupador é diferente.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_dpe_presidio_agrupador.png
+  :class: data-fb
+
+  Agrupador Ciência ao Ministério Público, Defensoria Pública e ao Presídio
+
+
+Após realizar as remessas ao **Ministério Público** e à **Defensoria Pública**, deve-se continuar a
+movimentação para inclusão de uma nova remessa referente ao **Presídio**.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_dpe_presidio_remessa.png
+  :class: data-fb
+
+  Remessa ao Presídio

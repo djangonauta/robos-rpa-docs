@@ -29,10 +29,10 @@ Ao rolar para o final da página deve-se clicar no botão de **Análise Múltipl
 
 Após selecionar o agrupador **INTIMAR ADVOGADO(A)** clica-se no botão **Filtrar**.
 
-.. figure:: _static/intimacao_juridica/intimar_advogado.png
+.. figure:: _static/intimacao_juridica/intimar_advogado_agrupador.png
   :class: data-fb
 
-  Filtrar pelo agrupador
+  Agrupador Intimar Advogado
 
 Para cada processo na lista deve-se verificar se está concluso, ou não, via formulário no *link*
 **Análise de Juntadas** ➜ **Análise de Conclusões** ➜ **Processos Remetidos p/ Conclusão**.
@@ -60,10 +60,10 @@ Selecionar cada processo não concluso e clicar no botão **Próximo passo >**.
 Em seguida marcar a caixa **promovido/advogado**, selecionar o prazo **Estipular em Dias** e preencher
 a caixa de texto com **5** (dias). Depois clicar no botão **Próximo passo >**.
 
-.. figure:: _static/intimacao_juridica/intimar_partes.png
+.. figure:: _static/intimacao_juridica/intimacao_advogado_realizar.png
   :class: data-fb
 
-  Intimar Advogado
+  Realizar Intimação Advogado
 
 Na tela de **Cadastro de Localizador** clica-se no botão **Próximo Passo >**.
 
@@ -75,7 +75,86 @@ Na tela de **Cadastro de Localizador** clica-se no botão **Próximo Passo >**.
 Na tela de **Conferir** clica-se no botão **Salvar** e se não acontecer nenhum erro, os processos são
 movimentados e os advogados, intimados.
 
-.. figure:: _static/intimacao_juridica/conferir.png
+.. figure:: _static/intimacao_juridica/intimacao_advogado_salvar.png
   :class: data-fb
 
   Salvar e movimentar processos
+
+
+Intimar Defensoria Pública
+--------------------------
+
+É necessário ter sido cadastrado previamente um agrupador **INTIMAR DEFENSORIA PÚBLICA**.
+
+O procedimento é idêntico ao de Intimar Advogado, porém o agrupador é diferente.
+
+.. figure:: _static/intimacao_juridica/intimar_defensoria_agrupador.png
+  :class: data-fb
+
+  Agrupador Intimar Defensoria
+
+E a ação de movimentação é **Realizar Remessa**.
+
+.. figure:: _static/intimacao_juridica/intimar_defensoria_realizar_remessa.png
+  :class: data-fb
+
+  Realizar Remessa Defensoria Pública
+
+
+Ciência ao Ministério Público e ao Advogado
+-------------------------------------------
+
+É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E AO ADVOGADO**.
+
+O procedimento é idêntico ao de Intimar Defensoria Pública, porém o agrupador é diferente.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_agrupador.png
+  :class: data-fb
+
+  Agrupador Ciência ao Ministério Público e ao Advogado
+
+A realização de remessa é diferente.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_realizar_remessa.png
+  :class: data-fb
+
+  Realizar Remessa Ciência ao Ministério Público e ao Advogado
+
+O procedimento não termina ao clicar no botão **Salvar**: deve-se marcar o botão de rádio **Continuar Movimentando (Sim)**.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_continuar_salvar.png
+  :class: data-fb
+
+  Continuar movimentação
+
+Na tela de **Adicionar Arquivos** deve-se clicar no botão **Próximo Passo >**.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_arquivos.png
+  :class: data-fb
+
+  Adicionar arquivos
+
+A tela seguinte preencher os campos para **Intimação de Advogado**.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_intimar_advogado.png
+  :class: data-fb
+
+O procedimento de movimentação múltipla termina clicando no botão **Salvar**.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_advogado_movimentacao_multipla_salvar.png
+  :class: data-fb
+
+  Salvar e concluir movimentação múltipla
+
+
+Ciência ao Ministério Público e a Defensoria Pública
+----------------------------------------------------
+
+É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E DEFENSORIA PÚBLICA**.
+
+O procedimento é Ciência ao Ministério Público e ao Advogado, porém o agrupador é diferente.
+
+.. figure:: _static/intimacao_juridica/ciencia_mp_dpe_agrupador.png
+  :class: data-fb
+
+  Agrupador Ciência ao Ministério Público e Defensoria Pública

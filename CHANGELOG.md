@@ -1,3 +1,9 @@
+## 0.5.0 (2025-09-06)
+
+### Feat
+
+- Adicionados outros tópicos da intimação jurídica
+
 ## 0.4.0 (2025-09-05)
 
 ### Feat

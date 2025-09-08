@@ -1,3 +1,9 @@
+## 0.6.0 (2025-09-08)
+
+### Feat
+
+- Documentação sobre o robô intimar pessoalmente
+
 ## 0.5.0 (2025-09-06)
 
 ### Feat

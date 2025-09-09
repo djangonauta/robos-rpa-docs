@@ -7,3 +7,4 @@ Robôs RPA
 
    pre_analise_processo.rst
    intimacao_juridica.rst
+   intimar_pessoalmente.rst

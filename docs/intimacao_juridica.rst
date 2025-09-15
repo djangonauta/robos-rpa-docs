@@ -86,7 +86,7 @@ Ciência à Defensoria Pública
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA À DEFENSORIA PÚBLICA**.
 
-O procedimento é idêntico ao de **Intimar Advogado**, porém o agrupador é diferente.
+O procedimento é idêntico ao de `Intimar Advogado`_, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_defensoria_agrupador.png
   :class: data-fb
@@ -106,7 +106,7 @@ Ciência ao Ministério Público e ao Advogado
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E AO ADVOGADO**.
 
-O procedimento é idêntico ao de **Ciência à Defensoria Pública**, porém o agrupador é diferente.
+O procedimento é idêntico ao de `Ciência à Defensoria Pública`_, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_mp_advogado_agrupador.png
   :class: data-fb
@@ -152,17 +152,17 @@ Ciência ao Ministério Público e à Defensoria Pública
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO E DEFENSORIA PÚBLICA**.
 
-O procedimento é idêntico a **Ciência ao Ministério Público e ao Advogado**, porém o agrupador é diferente.
+O procedimento é idêntico a `Ciência ao Ministério Público e ao Advogado`_, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_mp_dpe_agrupador.png
   :class: data-fb
 
   Agrupador Ciência ao Ministério Público e à Defensoria Pública
 
-O procedimento é a combinação de **Ciência ao Ministério Público** e à **Ciência à Defensoria Pública**, porém ao final
-da **Ciência ao Ministério Público** deve-se continuar a movimentação de forma idêntica ao procedimento
-**Ciência ao Ministério Público e ao Advogado**, porém efetuar a **Ciência à Defensoria Pública**
-ao invés de **Intimar Advogado**.
+O procedimento é a combinação de `Ciência ao Ministério Público`_ e à `Ciência à Defensoria Pública`_, porém ao final
+da `Ciência ao Ministério Público`_ deve-se continuar a movimentação de forma idêntica ao procedimento
+`Ciência ao Ministério Público e ao Advogado`_, porém efetuar a `Ciência à Defensoria Pública`_
+ao invés de `Intimar Advogado`_.
 
 
 Ciência ao Ministério Público, Defensoria Pública e ao Presídio
@@ -170,7 +170,7 @@ Ciência ao Ministério Público, Defensoria Pública e ao Presídio
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO, DEFENSORIA PÚBLICA E AO PRESÍDIO**.
 
-O procedimento é idêntico a **Ciência ao Ministério Público e à Defensoria Pública**, porém o agrupador é diferente.
+O procedimento é idêntico a `Ciência ao Ministério Público e à Defensoria Pública`_, porém o agrupador é diferente.
 
 .. figure:: _static/intimacao_juridica/ciencia_mp_dpe_presidio_agrupador.png
   :class: data-fb
@@ -192,7 +192,7 @@ Ciência ao Ministério Público, Advogado e ao Presídio
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO, ADVOGADO E AO PRESÍDIO**.
 
-O procedimento é idêntico a **Ciência ao Ministério Público, Defensoria Pública e ao Presídio**,
+O procedimento é idêntico a `Ciência ao Ministério Público, Defensoria Pública e ao Presídio`_,
 porém ao invés da **Defensoria Pública** é feito o procedimento **Intimar Advogado**.
 
 
@@ -201,7 +201,7 @@ Ciência ao Ministério Público
 
 É necessário ter sido cadastrado previamente um agrupador **CIÊNCIA AO MINISTÉRIO PÚBLICO**.
 
-O procedimento é idêntico a **Ciência ao Ministério Público e ao Advogado**, porém a remessa é feita
+O procedimento é idêntico a `Ciência ao Ministério Público e ao Advogado`_, porém a remessa é feita
 apenas para o **Ministério Público**.
 
 
@@ -210,7 +210,7 @@ Intimar Presídio
 
 É necessário ter sido cadastrado previamente um agrupador **INTIMAR PRESÍDIO**.
 
-O procedimento é idêntico a **Ciência ao Ministério Público, Defensoria Pública e ao Presídio**, porém
+O procedimento é idêntico a `Ciência ao Ministério Público, Defensoria Pública e ao Presídio`_, porém
 a remessa é feita apenas para o **Presídio**.
 
 
@@ -219,7 +219,7 @@ Intimar Pessoalmente
 
 É necessário ter sido cadastrado previamente um agrupador **INTIMAR PESSOALMENTE**.
 
-O procedimento é idêntico ao **INTIMAR ADVOGADO** porém com agrupador diferente.
+O procedimento é idêntico ao `Intimar Advogado`_ porém com agrupador diferente.
 
 .. figure:: _static/intimacao_juridica/intimar_pessoalmente_agrupador.png
   :class: data-fb

@@ -3,28 +3,24 @@ name = "robos-rpa-docs"
 version = "0.7.0"
 description = "Documentação referente ao robôs de automação RPA do TJPA."
 authors = [
-    {name = "Igor Carvalho", email = "igbrch@gmail.com"}
+    {name = "Igor Carvalho", email = "igor.carvalho@tjpa.jus.br"}
 ]
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
+    "black (>=25.9.0,<26.0.0)",
+    "commitizen (>=4.9.1,<5.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "flake8-pyproject (>=1.2.3,<2.0.0)",
+    "invoke (>=2.2.0,<3.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
     "sphinx (>=8.2.3,<9.0.0)",
     "sphinx-autobuild (>=2025.8.25,<2026.0.0)",
-    "sphinx-rtd-theme (>=3.0.2,<4.0.0)",
+    "sphinx-rtd-theme (>=3.0.2,<4.0.0)"
 ]
 
 [tool.poetry]
 package-mode = false
-
-[tool.poetry.group.dev]
-optional = true
-
-[tool.poetry.group.dev.dependencies]
-black = "^25.1.0"
-commitizen = "^4.8.3"
-flake8 = "^7.3.0"
-invoke = "^2.2.0"
-isort = "^6.0.1"
 
 [tool.black]
 line-length = 100
@@ -32,7 +28,6 @@ target-version = ['py313']
 include = '\.pyi?$'
 extend-exclude = '''
 /(
-  # directories
   \.eggs
   | \.git
   | \.hg
@@ -44,14 +39,6 @@ extend-exclude = '''
 )/
 '''
 
-[tool.isort]
-profile = "black"
-line_length = 100
-
-[tool.flake8]
-max-line-length = 100
-extend-ignore = ["E203", "W503"]
-
 [tool.commitizen]
 name = "cz_conventional_commits"
 tag_format = "$version"
@@ -60,6 +47,14 @@ version_provider = "pep621"
 update_changelog_on_bump = true
 major_version_zero = true
 version_files = ["pyproject.toml:project.version"]
+
+[tool.flake8]
+max-line-length = 100
+extend-ignore = ["E203", "W503"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

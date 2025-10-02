@@ -6,5 +6,5 @@ Robôs RPA
    :caption: SEEU
 
    pre_analise_processo.rst
-   intimacao_juridica.rst
+   realizar_expedientes_lote.rst
    intimar_pessoalmente.rst

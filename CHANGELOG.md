@@ -1,3 +1,9 @@
+## 0.7.1 (2025-10-06)
+
+### Fix
+
+- Corrigida imagem referente a manifestação à defensoria pública
+
 ## 0.7.0 (2025-09-09)
 
 ### Feat

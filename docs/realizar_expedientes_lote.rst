@@ -46,6 +46,8 @@ ________________________________
 Agrupadores que utilizam CUMPRIMENTO DE ALVARÁ DE SOLTURA
 
   - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
+  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; Ciencia MP; Declinacao Reu Solto; Ordenar alvara
+  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
 
 
 DECISÃO DE BENEFICIO PARA CUMPRIMENTO
@@ -55,6 +57,11 @@ _____________________________________
   :class: data-fb
 
   Campos para a movimentação C Alvaras com finalidade DECISÃO DE BENEFICIO PARA CUMPRIMENTO
+
+
+Agrupadores que utilizam DECISÃO DE BENEFICIO PARA CUMPRIMENTO
+
+  - 2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP
 
 
 NMEM (Núcleo de Monitoramento)

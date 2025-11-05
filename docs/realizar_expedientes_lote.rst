@@ -34,11 +34,8 @@ Agrupadores homologados
 C Alvaras (Central de Alvarás)
 ------------------------------
 
-.. figure:: _static/realizar_expedientes_lote/c_alvaras_beneficio.png
-  :class: data-fb
-
-  Campos para a movimentação C Alvaras com finalidade DECISÃO DE BENEFICIO PARA CUMPRIMENTO
-
+CUMPRIMENTO DE ALVARÁ DE SOLTURA
+________________________________
 
 .. figure:: _static/realizar_expedientes_lote/c_alvaras_soltura.png
   :class: data-fb
@@ -51,6 +48,15 @@ Agrupadores que utilizam CUMPRIMENTO DE ALVARÁ DE SOLTURA
   - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
 
 
+DECISÃO DE BENEFICIO PARA CUMPRIMENTO
+_____________________________________
+
+.. figure:: _static/realizar_expedientes_lote/c_alvaras_beneficio.png
+  :class: data-fb
+
+  Campos para a movimentação C Alvaras com finalidade DECISÃO DE BENEFICIO PARA CUMPRIMENTO
+
+
 NMEM (Núcleo de Monitoramento)
 ------------------------------
 
@@ -60,10 +66,19 @@ O NMEM varia de acordo com o agrupador em que está incluído.
  - **1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
  - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP**: INTIMAÇÃO DO SENTENCIADO, Prazo: 30 dias
 
+MONITORAÇÃO ELETRÔNICA
+______________________
+
 .. figure:: _static/realizar_expedientes_lote/nmem_monitoracao_eletronica.png
   :class: data-fb
 
   Campos para a movimentação NMEM (Monitoração Eletrônica)
+
+.. note:: Para o agrupador 1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP, MONITORAÇÃO ELETRÔNICA é urgente.
+
+
+INTIMAÇÃO DO SENTENCIADO
+________________________
 
 .. figure:: _static/realizar_expedientes_lote/nmem_intimacao_sentenciado.png
   :class: data-fb

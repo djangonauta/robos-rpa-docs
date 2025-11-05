@@ -46,14 +46,19 @@ C Alvaras (Central de Alvarás)
   Campos para a movimentação C Alvaras com finalidade CUMPRIMENTO DE ALVARÁ DE SOLTURA
 
 
+Agrupadores que utilizam CUMPRIMENTO DE ALVARÁ DE SOLTURA
+
+  - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
+
+
 NMEM (Núcleo de Monitoramento)
 ------------------------------
 
 O NMEM varia de acordo com o agrupador em que está incluído.
 
  - **1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
- - **1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP e DEFESA**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
- - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP e DEFESA**: INTIMAÇÃO DO SENTENCIADO, Prazo: 30 dias
+ - **1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
+ - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP**: INTIMAÇÃO DO SENTENCIADO, Prazo: 30 dias
 
 .. figure:: _static/realizar_expedientes_lote/nmem_monitoracao_eletronica.png
   :class: data-fb

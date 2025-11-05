@@ -5,61 +5,39 @@ O robô de Realizar Expedientes em Lote opera em agrupadores pré-cadastrados e 
 organizados por esses agrupadores.
 
 Cada agrupador define uma sequência de movimentações que deve ser aplicada a um grupo de processos. Por exemplo,
-o agrupador **1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; ciencia MP; ADVOGADO** com 5 (cinco) processos
-executa as seguintes movimentações em todos esses processos (os 5 processos passam por 4 movimentações):
+o agrupador **1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara** com 5 (cinco) processos
+executa as seguintes movimentações em todos esses processos (os 5 processos passam por 6 movimentações):
 
-  - NMEM (Movimentação dos processos de acordo com a lógica de Núcleo de Monitoramento)
-  - COMPLEXO (Movimentação dos processos de acordo com a lógica do Complexo Penitenciário)
-  - ciencia MP (Movimentação dos processos de acordo com a lógica de Ciência ao MP)
-  - ADVOGADO (Movimentação dos processos de acordo com a lógica de Intimação do Advogado)
+  - C Alvaras
+  - NMEM
+  - COMPLEXO
+  - Ciencia MP
+  - Equipe
+  - Ordenar alvara
 
 
 Agrupadores homologados
 -----------------------
 
-  - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; ciencia MP; ADVOGADO; Equipe
-  - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; ciencia MP; ciencia DP; Equipe
-  - 1 - IMEDIATO - Intimacao ADVOGADO
-  - 1 - IMEDIATO - MANDADO 1
-  - 1 - IMEDIATO - Manifestacao DP
+  - 1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
+  - 1 - IMEDIATO - MANDADO
   - 1 - IMEDIATO - Manifestacao MP
   - 1 - IMEDIATO - OFICIAR
-  - 1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; ciencia MP; ADVOGADO
-  - 1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; ciencia MP; ciencia DP
-  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; ciencia MP; ciencia DP; Declinacao Reu Solto
-  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; ciencia MP; ciencia DP; Equipe
-  - 2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; ciencia MP; ADVOGADO
-  - 2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; ciencia MP; ciencia DP
-
-
-.. warning:: O prazo é de 1 (um) dia para a movimentação **C Alvaras** para os seguintes agrupadores
-
-  - **1 - DOMICILIAR - C Alvarás; NMEM; COMPLEXO; ciência MP; ADVOGADO; Equipe**
-  - **1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; ciencia MP; ciencia DP; Equipe**
-  - **2 - PROGRESSÃO Aberto - C Alvarás; COMPLEXO; ciência MP; ciência DP; Declinação Réu Solto**
-  - **2 - PROGRESSÃO Aberto - C Alvarás; COMPLEXO; ciência MP; ciência DP; Equipe**
-
-.. warning:: O prazo é de 2 (dois) dias para a movimentação **C Alvaras** para os seguintes agrupadores
-
-  - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; ciencia MP; ADVOGADO**
-  - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; ciencia MP; ciencia DP**
+  - 1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP
+  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; Ciencia MP; Declinacao Reu Solto; Ordenar alvara
+  - 2 - PROGRESSAO Aberto - C Alvaras; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara
+  - 2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP
+  - 2 - URGENTE - Ciencia MP
+  - 3 - INTERMEDIARIO - Equipe
 
 
 C Alvaras (Central de Alvarás)
 ------------------------------
 
-O prazo para a movimentação Central de Alvarás varia dependendo da finalidade:
-
-  - **DECISÃO DE BENEFICIO PARA CUMPRIMENTO.** Prazo de 2 (dois) dias.
-  - **CUMPRIMENTO DE ALVARÁ DE SOLTURA.** Prazo de 1 (um) dia.
-
-
 .. figure:: _static/realizar_expedientes_lote/c_alvaras_beneficio.png
   :class: data-fb
 
   Campos para a movimentação C Alvaras com finalidade DECISÃO DE BENEFICIO PARA CUMPRIMENTO
-
-.. note:: Para a finalidade **DECISÃO DE BENEFICIO PARA CUMPRIMENTO** o prazo é de 2 (dois) dias
 
 
 .. figure:: _static/realizar_expedientes_lote/c_alvaras_soltura.png
@@ -67,16 +45,25 @@ O prazo para a movimentação Central de Alvarás varia dependendo da finalidade
 
   Campos para a movimentação C Alvaras com finalidade CUMPRIMENTO DE ALVARÁ DE SOLTURA
 
-.. note:: Para a finalidade **CUMPRIMENTO DE ALVARÁ DE SOLTURA** o prazo é de 1 (um) dia
-
 
 NMEM (Núcleo de Monitoramento)
 ------------------------------
 
-.. figure:: _static/realizar_expedientes_lote/nmem.png
+O NMEM varia de acordo com o agrupador em que está incluído.
+
+ - **1 - DOMICILIAR - C Alvaras; NMEM; COMPLEXO; Ciencia MP; Equipe; Ordenar alvara**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
+ - **1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP e DEFESA**: MONITORAÇÃO ELETRÔNICA, Prazo: 20 dias
+ - **2 - PROGRESSAO S.A - C Alvaras; NMEM; COMPLEXO; Ciencia MP e DEFESA**: INTIMAÇÃO DO SENTENCIADO, Prazo: 30 dias
+
+.. figure:: _static/realizar_expedientes_lote/nmem_monitoracao_eletronica.png
   :class: data-fb
 
-  Campos para a movimentação NMEM
+  Campos para a movimentação NMEM (Monitoração Eletrônica)
+
+.. figure:: _static/realizar_expedientes_lote/nmem_intimacao_sentenciado.png
+  :class: data-fb
+
+  Campos para a movimentação NMEM (Intimação Sentenciado)
 
 
 COMPLEXO (Complexo Penitênciário)
@@ -88,13 +75,13 @@ COMPLEXO (Complexo Penitênciário)
   Campos para a movimentação COMPLEXO
 
 
-ciencia MP (Ciência ao Ministério Público)
+Ciencia MP (Ciência ao Ministério Público)
 ------------------------------------------
 
 .. figure:: _static/realizar_expedientes_lote/ciencia_mp.png
   :class: data-fb
 
-  Campos para a movimentação ciencia MP
+  Campos para a movimentação Ciencia MP
 
 
 ADVOGADO (Intimar Advogado)
@@ -115,13 +102,13 @@ Equipe (Equipe Interdisciplinar)
   Campos para a movimentação Equipe
 
 
-ciencia DP (Ciência à Defensoria Pública)
+Ciencia DP (Ciência à Defensoria Pública)
 -----------------------------------------
 
 .. figure:: _static/realizar_expedientes_lote/ciencia_dp.png
   :class: data-fb
 
-  Campos para a movimentação ciencia DP
+  Campos para a movimentação Ciencia DP
 
 
 Mandado
@@ -167,3 +154,12 @@ Declinacao Reu Solto
   :class: data-fb
 
   Campos para a movimentação Declinacao Reu Solto
+
+
+Ordenar Alvara
+--------------
+
+.. figure:: _static/realizar_expedientes_lote/ordenar_alvara.png
+  :class: data-fb
+
+  Ordenar Alvará

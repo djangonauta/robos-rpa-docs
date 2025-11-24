@@ -31,6 +31,9 @@ Agrupadores homologados
   - 3 - INTERMEDIARIO - Equipe
 
 
+.. warning:: Os agrupadores referentes a defesa (Defensoria pública e Advogado) foram adiados para
+             atualização posterior.
+
 C Alvaras (Central de Alvarás)
 ------------------------------
 

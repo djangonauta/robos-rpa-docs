@@ -105,6 +105,10 @@ COMPLEXO (Complexo Penitênciário)
   Campos para a movimentação COMPLEXO
 
 
+.. note:: Para o agrupador 1 - SAIDA TEMPORARIA - NMEM; COMPLEXO; Ciencia MP, MONITORAÇÃO ELETRÔNICA
+          a finalidade do COMPLEXO é CIÊNCIA - DIRETOR DA UNIDADE com prazo de 15 dias.
+
+
 Ciencia MP (Ciência ao Ministério Público)
 ------------------------------------------
 

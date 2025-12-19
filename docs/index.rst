@@ -16,3 +16,4 @@ Robôs RPA
    pre_analise_processo.rst
    realizar_expedientes_lote.rst
    intimar_pessoalmente.rst
+   tempo_justo.rst

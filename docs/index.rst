@@ -11,6 +11,7 @@ Robôs RPA
    :maxdepth: 2
    :caption: Funcionalidades Básicas
 
+   ambientes.rst
    automacao.rst
    registros.rst
    relatorios.rst

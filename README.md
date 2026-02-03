@@ -4,7 +4,7 @@
 
 Requisitos:
 
-- [Python 3.13](https://www.python.org/)
+- [Python 3.14](https://www.python.org/)
 - [Poetry 2.2.1](https://python-poetry.org/)
 
 ### Após clonar o projeto mude para o diretório de instalação e instale as dependências via Poetry

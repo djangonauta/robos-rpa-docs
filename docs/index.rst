@@ -3,6 +3,12 @@ Robôs RPA
 
 .. toctree::
    :maxdepth: 2
+   :caption: Instalação
+
+   requisitos.rst
+
+.. toctree::
+   :maxdepth: 2
    :caption: Funcionalidades Básicas
 
    automacao.rst
